@@ -22,3 +22,20 @@ h3{
 h4{
     padding: 2.5% 0;
 }
+
+#foto1{
+    width: 75%;
+}
+
+#foto2{
+    rotate: -90deg;
+    margin: 0 0 30% 10%;
+}
+
+#foto3{
+    width: 100%;
+}
+
+#foto4{
+    width: 90%;
+}
