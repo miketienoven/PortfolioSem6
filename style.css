@@ -4,6 +4,10 @@
     font-family: 'monserat', sans-serif;
 }
 
+img{
+    margin: 2rem 0 0 2rem;
+}
+
 
 .hero{
     height: 300vh;
