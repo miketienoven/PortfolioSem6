@@ -70,7 +70,7 @@ a{
 
 #innerNav{
     display: flex;
-    margin-top: 4vh
+    margin-top: 4vh;
 }
 
 #innerNav a{
@@ -145,10 +145,10 @@ a{
 }
 
 #heroIMg{
-    width: 35%;
+    width: 41%;
     height: 70%;
     background-color: #1e1e1e;
-    margin: 0 10vw;
+    margin: 0 0 0 6vw;
 }
 
 #webdesigner{
