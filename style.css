@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'monserat', sans-serif;
+    background-color: #0d0d0d;
+
 }
 
 img{
@@ -13,18 +15,22 @@ img{
     height: 300vh;
     width: 45vw;
     margin: 5% auto;
+    color: #d6d6d6;
 }
 
 #naam{
     font-weight: 600;
+    color: #d6d6d6;
 }
 
 h3{
     padding: 2.5% 0;
+    color: #d6d6d6;
 }
 
 h4{
     padding: 2.5% 0;
+    color: #d6d6d6;
 }
 
 #foto1{
@@ -55,3 +61,100 @@ a{
     text-decoration: none;
     color: rgb(20, 98, 207)
 }
+
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    color: #0d0d0d;
+}
+
+#innerNav{
+    display: flex;
+    margin-top: 4vh
+}
+
+#innerNav a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 3vw;
+    justify-content: space-evenly;
+    transition: 0.6s;
+}
+
+#innerNav a:hover{
+    text-decoration: none;
+    color: #EF5D62;
+    margin: 0 3vw;
+    justify-content: space-evenly;
+    transition: 0.6s;
+}
+
+#logo{
+    height: 4vh;
+    margin: 1.7rem 0 0 2rem;
+}
+
+#contactBtn{
+    margin: 2.5vh 0;
+    padding: 15px 40px;
+    background: linear-gradient(to left, #EF5D62, #8E3889);
+    border-radius: 30px;
+    color: #fff;
+}
+
+#moreBtn{
+    margin: 2.5vh 0;
+    padding: 15px 40px;
+    background: none;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #1e1e1e;
+}
+
+#header{
+    color: #fff;
+    font-size: 35px;
+    background-color: #1e1e1e;
+}
+
+#headerText{
+    color: #fff;
+    font-weight: 400;
+    max-width: 27vw;
+    font-size: 15px;
+    background-color: #1e1e1e;
+    padding: 1rem 0 2rem 0;
+}
+
+.innerHeroRight{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 90vw;
+    height: 80vh;
+    padding: 20px;
+    margin: auto;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.innnerHero{
+    padding: 0 0 0 2vw;
+    background-color: #1e1e1e;
+}
+
+#heroIMg{
+    width: 35%;
+    height: 70%;
+    background-color: #1e1e1e;
+    margin: 0 10vw;
+}
+
+#webdesigner{
+    background-image: linear-gradient(#EF5D62, #8E3889);
+    color: transparent;
+    background-clip: text;
+    font-size: 35px;
+}
+
