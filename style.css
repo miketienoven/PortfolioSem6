@@ -20,7 +20,7 @@ img{
 
 #naam{
     font-weight: 600;
-    color: #d6d6d6;
+    color: #9DCAFF;
 }
 
 h3{
@@ -224,4 +224,7 @@ a{
     max-width: 50vw;
 }
 
+#hidden{
+    display: none;
+}
 
