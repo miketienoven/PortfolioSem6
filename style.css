@@ -69,6 +69,7 @@ a{
     position: fixed;
     width: 100vw;
     margin: 0 0 5rem 0;
+    z-index: 1000;
 }
 
 #innerNav{
@@ -99,6 +100,14 @@ a{
 
 #contactBtn{
     margin: 2.5vh 0;
+    padding: 15px 40px;
+    background: linear-gradient(to left, #EF5D62, #8E3889);
+    border-radius: 30px;
+    color: #fff;
+}
+
+#backBtn{
+    margin: 20vh 15vw;
     padding: 15px 40px;
     background: linear-gradient(to left, #EF5D62, #8E3889);
     border-radius: 30px;
@@ -235,3 +244,55 @@ a{
     display: none;
 }
 
+
+.herosh{
+    position: absolute;
+    margin: 15vh auto;
+    height: 80vh;
+}
+
+#heroshimg{
+    
+    width: 72vw;
+    height: 100%;
+    margin: 5vh 15vw;
+}
+
+.schoonhuischSection{
+    height: 100vh;
+    position: absolute;
+    margin: 110vh 15vw 0 15vw;
+    
+}
+
+.schoonhuischSection2{
+    height: 100vh;
+    position: absolute;
+    margin: 220vh 15vw 0 15vw;
+}
+
+.schoonhuischSection3{
+    height: 100vh;
+    position: absolute;
+    margin: 310vh 15vw 0 15vw;
+}
+
+.schoonhuischSection4{
+    height: 100vh;
+    position: absolute;
+    margin: 480vh 15vw 0 15vw;
+}
+
+#inspiratiesh{
+    color: #fff;
+    width: 40vw;
+    line-height: 170%;
+}
+
+#inspiratieimg{
+   margin: 0 10vw;
+}
+
+#toekomstplannenimg{
+    padding: 1vw 0;
+}
