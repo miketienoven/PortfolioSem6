@@ -199,12 +199,14 @@ a{
     grid-area: 2 / 3 / 3 / 4; 
     /* border: 1px solid white; */
     border-radius: 2rem;
+    background: transparent;
 }
 
 .div4 { 
     grid-area: 2 / 4 / 3 / 5; 
     /* border: 1px solid white; */
     border-radius: 2rem;
+    background: transparent;
 }
 
 .container{
