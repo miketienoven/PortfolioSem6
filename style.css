@@ -279,6 +279,32 @@ a{
     margin: 310vh 15vw 0 15vw;
 }
 
+.paragraph{
+    margin: 330vh 15vw 0 15vw;
+    position: absolute;
+    color: #fff;
+    display: flex;
+}
+
+.paragraph2{
+    margin: 410vh 15vw 0 15vw;
+    position: absolute;
+    color: #fff;
+    display: flex;
+}
+
+.paragraph3{
+    margin: 600vh 15vw 0 15vw;
+    position: absolute;
+    color: #fff;
+}
+
+#text1{
+    max-width: 30vw;
+    line-height: 170%;
+    margin: 30vh 0 0 2vw;
+}
+
 .themassection3{
     position: absolute;
     margin: 375vh 15vw 0 15vw;
@@ -302,4 +328,24 @@ a{
 
 #toekomstplannenimg{
     padding: 1vw 0;
+}
+
+#boekomslagimg{
+    margin: 3vh 13vw 6vh 13vw;
+}
+
+#voorbeeldimg{
+    position: absolute;
+    margin: 480vh 30vw 0 30vw;
+    width: 40%;
+    justify-content: center;
+}
+
+#poster{
+    width: 50%;
+    margin: 5vh 17vw 8vh 17vw; 
+}
+
+#minorimg{
+    margin: 5vh 17vw 8vh 17vw;
 }
