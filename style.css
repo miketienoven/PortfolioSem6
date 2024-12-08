@@ -349,3 +349,46 @@ a{
 #minorimg{
     margin: 5vh 17vw 8vh 17vw;
 }
+
+.hero-contact {
+    height: 100vh;
+    position: fixed;
+    top: 20;
+    left: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.hero-titles{
+    margin: 20vh 0 0 0;
+}
+
+#contact-header {
+    font-size: 60px;
+    font-weight: 1000;
+    margin: 0;
+    text-align: center;
+}
+
+#contact-subtitle{
+    font-size: 35px;
+    text-align: center;
+}
+
+#contact-text{
+    text-align: center;
+    width: 10vw;
+    font-size: 17px;
+    margin: 2rem 0 0 -1.8rem;
+}
+
+.call-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
